@@ -1,0 +1,8 @@
+gol_repositories:
+    resource: "@GOLRepositoriesBundle/Resources/config/routing.yml"
+    prefix:   /
+
+gol_api:
+    resource: "@GOLApiBundle/Resources/config/routing.yml"
+    prefix:   /
+

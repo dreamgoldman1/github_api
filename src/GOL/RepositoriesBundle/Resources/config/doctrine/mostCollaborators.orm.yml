@@ -1,0 +1,27 @@
+GOL\RepositoriesBundle\Entity\mostCollaborators:
+    type: entity
+    table: null
+    repositoryClass: GOL\RepositoriesBundle\Repository\mostCollaboratorsRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        repository:
+            type: string
+            length: 255
+        author:
+            type: string
+            length: 255
+        url:
+            type: string
+            length: 255
+        description:
+            type: string
+            length: 255
+        collaborators:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

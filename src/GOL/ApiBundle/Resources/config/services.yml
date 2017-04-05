@@ -1,0 +1,3 @@
+services:
+    gol_api:
+        class: GOL\ApiBundle\Controller\ApiController

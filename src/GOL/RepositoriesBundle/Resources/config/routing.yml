@@ -1,0 +1,15 @@
+gol_repositories_homepage:
+    path:     /
+    defaults: { _controller: GOLRepositoriesBundle:Default:moreranked }
+    
+gol_repositories_more_ranked:
+    path:     /more-ranked
+    defaults: { _controller: GOLRepositoriesBundle:Default:moreranked }
+    
+gol_repositories_more_collaborators:
+    path:     /more-collaborators
+    defaults: { _controller: GOLRepositoriesBundle:Default:morecollaborators }
+    
+gol_repositories_update_data:
+    path:     /update-data
+    defaults: { _controller: GOLRepositoriesBundle:Default:updatedata }
